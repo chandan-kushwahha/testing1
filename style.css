@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    font-weight: 600;
+}
+body{
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    
+}
+
+/* styling top menu start */
+.top-menu {
+    text-align: end;
+    background-color: #EEEEEE;
+    padding: 10px 40px 2px 40px;
+}
+.top-menu ul li{
+    display: inline;
+}
+.top-menu ul li a{
+    text-decoration: none;
+    color: gray;
+    padding: 0px 10px;
+}
+.top-menu ul .unicode{
+    border-right: 2px solid #cac2c2;
+    padding: 0px 10px;
+}
+.top-menu ul .facebook{
+    border-left: 2px solid gray;  
+}
+.top-menu ul li a:hover{
+    color: rgb(90, 88, 88);
+}
+/* styling top menu end */
+
+/* styling logo start */
+.logo{
+    padding: 5px 0px 5px 60px;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+/* styling logo end */
+
+/* styling main menu start */
+.sticky-top{
+    background: #fff;
+    box-shadow: 0px 0px 2px 0px gray;
+}
+.main-menu{
+    padding: 5px 50px;
+    border-top: 2px solid #ded9d9;
+    border-bottom: 2px solid #ded9d9;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #6b6969;
+    font-weight: 600;
+    padding: 0px 15px;
+}
+.navbar-light .navbar-nav  .nav-item i{
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #1AE25C;
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    font-size: 22px;
+    color: #6b6969;
+}
+.fa-bars:before, .fa-navicon:before {
+    content: "\f0c9";
+    font-size: 25px;
+}
+/* styling main menu end */
+
+/* styling hide menu start*/
+.hide-menu{
+    width: 20%;
+    height: 100vh;
+    overflow: scroll;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 9999;
+    display: none;
+    
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+  }
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1AE25C;
+  }
+  
+  
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #fff;
+    border: none;
+}
+.accordion-item:first-of-type .accordion-button {
+   border: none;
+   outline: none;
+}
+.accordion-button:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.accordion-button{
+    font-size: 20px;
+    font-weight: 500;
+}
+.accordion-item {
+    border: none;
+}
+.hide-menu .list{
+    padding-top: 55px;
+}
+.hide-menu .list ul li{
+    list-style: none;
+   
+}
+
+.hide-menu .list ul li a{
+    text-decoration: none;
+    color: rgb(77, 76, 76);
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 20px;
+    line-height: 50px;
+  
+}
+.hide-menu .social-icon{
+    border-bottom: 2px solid gray;
+    padding-top: 20px;
+   position: fixed;
+   z-index: 9;
+   background: #fff;
+   width: 20%;
+
+}
+.hide-menu .social-icon ul li{
+    display: inline;
+}
+.hide-menu .social-icon ul li a i{
+    font-size: 17px;
+   padding: 0px 5px;
+    color: rgb(67, 67, 67);
+}
+.hide-menu .social-icon ul .cancel{
+    padding-left: 78px;
+}
+.hide-menu .social-icon ul .cancel  i{
+    color: red;
+    cursor: pointer;
+}
+/* styling hide menu end */
+
+/* ads parts styling starts */
+.ads img{
+    width: 100%;
+}
+.ads{
+    padding: 30px 50px;
+}
+/* ads parts styling end */
+
+
+/* banner part start */
+.banner1{
+    padding: 0px 30px;
+}
+.banner1 img{
+    width: 100%;
+}
+
+.banner1 h6{
+    font-size: 22px;
+}
+.banner1 h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #EEEEEE;
+    border-left: 5px solid #1AE25C;
+    padding: 10px;
+}
+.sub-banner{
+   display: flex;
+   align-items: flex-end;
+   text-align: end;
+}
+
+
+.newsTech_section-title-main-wrapper {
+    position: relative;
+}
+.newsTech_section-title-main-wrapper::before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    background-color: #1ae25c;
+    z-index: 1;
+}
+.newsTech_section-title-main {
+    padding-left: 30px;
+    background-color: transparent;
+}
+.newsTech_section-title {
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    /* background-color: #eee; */
+}
+.newsTech_section-title-main::before {
+    content: "";
+    left: 30px;
+}
+.newsTech_section-title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 28px;
+    width: 4px;
+    height: 100%;
+    background-color: #1ae25c;
+    z-index: 11;
+}
+.newsTech_section-title-main a {
+    position: relative;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.newsTech_section-title a {
+    padding: 5px 15px;
+    display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: #000;
+}
+.newsTech_section-title-main a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #1ae25c;
+}
+.newsTech_section-title-main a::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    right: 0;
+    top: 0;
+    background-color: #1ae25c;
+}
+.newsTech_section-title-main::after {
+    content: "";
+    left: 30px;
+}
+
+.newsTech_section-title::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 4px;
+    left: 28px;
+    bottom: 0;
+    background-color: #1ae25c;
+    z-index: 11;
+}
+.newsTech_section-title-main-wrapper::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1ae25c;
+    z-index: 1;
+}
+
+
+/* device slider */
+.telicom .device{
+    width: 100%;
+    margin: auto;
+}
+.device .device-item{
+    border: 1px solid #000;
+    width: 10%;
+    overflow: hidden;
+    border-radius: 51%;
+    align-items: center;
+    text-align: center;
+    padding-right: 29px;
+    padding-top: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+.device .first{
+    margin-left: 370px;
+}
+.device .device-item:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 0px 1px 1px gray;
+}
+
+.device .device-item .device-image img{
+    width: 150px;
+    padding: 20px;
+}
+
+.device .device-item ul li{
+    list-style: none;
+}
+
+
+.sub_head::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1ae25c;
+    z-index: 1;
+}
+.small-heading::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #1ae25c;
+    z-index: 1;
+    /* margin-left: 100px; */
+}   
+.big{
+    width: 70%;
+}
+.small{
+    width: 30%;
+    margin-right: 60px;
+}
+
+/* video part start */
+.video{
+    background: #15B466;
+    padding: 70px;
+}
+.video .side-video{
+    height: 70vh;
+    overflow: scroll;
+}
+.sub-vid-header h3{
+    padding-right: 300px;
+}
+.sub-vid-header i{
+    padding: 5px 10px;
+    color: #fff;
+    background: rgb(183, 179, 179);
+    cursor: pointer;
+}
+.video .vid-item-videos{
+    width: 50%;
+}
+/* video part end */
+
+/* footer part start */
+.footer{
+    background: #333333;
+    padding: 60px 20px;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li h3{
+    color: #fff;
+    padding-top: 20px;
+}
+.footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #1AE25C;
+    line-height: 30px;
+}
+.footer ul li span{
+    color: #fff;
+    
+    font-size: 22px;
+}
+.foot-logo img{
+    width: 100%;
+}
+.foot-social-icon{
+    padding: 10px;
+}
+.foot-social-icon ul li{
+    display: inline;
+    padding: 10px;
+    margin: 0px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.foot-social-icon ul li i{
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+.foot-social-icon ul .facebook{
+    background: #4267B2;
+    padding: 10px;
+}
+.foot-social-icon ul .twitter{
+    background: #1DA1F2;
+    padding: 10px;
+}
+.foot-social-icon ul .instagram{
+    background: #3F729B;
+    padding: 10px;
+}
+.foot-social-icon ul .youtube{
+    background: #CD201F;
+    padding: 10px;
+}
+
+
+/* footer part end */
